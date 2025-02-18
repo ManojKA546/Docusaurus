@@ -24,7 +24,7 @@ const config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'ManojKA546', // Usually your GitHub org/user name.
   projectName: 'Docusaurus', // Usually your repo name.
-  deploymentBranch: 'main',
+  deploymentBranch: 'gh-pages',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
