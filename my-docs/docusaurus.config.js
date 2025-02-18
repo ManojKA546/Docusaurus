@@ -18,15 +18,16 @@ const config = {
   url: 'https://your-username.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/Docusaurus/',
+  baseUrl: '/Docusaurus/my-docs/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'ManojKA546', // Usually your GitHub org/user name.
   projectName: 'Docusaurus', // Usually your repo name.
-  deploymentBranch: 'gh-pages',
+  //deploymentBranch: 'main/my-docus',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
+  trailingSlash: false, // Avoids double slashes in URLs
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
